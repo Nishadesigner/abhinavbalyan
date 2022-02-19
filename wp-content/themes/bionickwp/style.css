@@ -1,0 +1,72 @@
+/*
+Theme Name: BionickWP
+Theme URI: http://themeforest.net/item/bionick-personal-portfolio-wordpress-theme/12103153?ref=webRedox
+Author: webRedox Team
+Author URI: http://themeforest.net/user/webRedox
+Website: http://webredox.net
+Description: Bionick - Responsive Personal Portfolio WordPress Theme
+Version: 3.0
+Tags: four-columns, fluid-layout, custom-background, custom-colors, featured-images, theme-options
+
+License:
+License URI:
+*/
+
+.wp-caption{}
+.wp-caption-text{}
+.sticky{}
+.gallery-caption{}
+.bypostauthor{}
+.alignright{}
+.alignleft{}
+.aligncenter{}
+.screen-reader-text {}
+.screen-reader-text:focus {}
+.home footer { visibility:visible !important; width:100% !important; }
+.home .fixed-column.viselem {
+
+    display: none;
+
+}
+footer.wr-footer-fd {
+    padding-top: 0px;
+    display: none;
+}
+.height-emulator {
+    display: none !important;
+}
+.hero-title {
+    display: none !important;
+}
+.bg {
+
+    filter: grayscale(100) brightness(1.7);
+
+}
+@media screen and (max-width:480px){
+	.socialmedia.col-sm-5 {
+    margin-top: 10px;
+    display: none !important;
+}
+	.logo-holder {
+    float: left;
+    max-width: 200px;
+    height: 70px;
+    position: relative;
+    padding: 0 9px !important;
+    line-height: 86px;
+}
+	.logo-holder a {
+    width: 100%;
+    height: auto;
+    font-size: 19px;
+    font-family: 'bebas_neuebold';
+    letter-spacing: 1px;
+}
+	.nav-button1.col-sm-5 {
+    width: auto;
+    float: right;
+    padding: 0px !important;
+}
+	
+}
